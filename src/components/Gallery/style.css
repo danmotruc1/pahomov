@@ -1,0 +1,14 @@
+.imag {
+    
+    object-fit: cover;
+    height: 100%;
+}
+
+.img-prev {
+    object-fit: fill;
+}
+
+.pswp__img {
+    object-fit: contain;
+    height: auto;
+}

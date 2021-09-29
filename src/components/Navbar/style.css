@@ -1,0 +1,44 @@
+.header_absolute {
+	position: relative;
+}
+
+.header_absolute .page_header,
+.header_absolute .page_header_wrapper,
+.header_absolute .page_toplogo {
+	left: 0;
+	position: absolute;
+	right: 0;
+	z-index: 1002;
+}
+
+.header_absolute.slide_absolute {
+	left: 0;
+	position: absolute;
+	right: 0;
+}
+
+.header_absolute .page_topline,
+.header_absolute .page_toplogo,
+.header_absolute .page_header_wrapper,
+.header_absolute .page_title {
+	background-color: transparent;
+}
+
+#canvas:not(.boxed) .header_absolute .page_header.affix-top {
+	background-color: transparent;
+}
+
+.header_absolute.slide_absolute .page_header,
+.header_absolute.slide_absolute .page_header_wrapper,
+.header_absolute.slide_absolute .page_toplogo {
+	left: 0;
+	position: absolute;
+	right: 0;
+	z-index: 1002;
+}
+
+.media img {
+	max-width: 23px;
+	margin-bottom: 7px;
+	margin-right: 5px;
+}
