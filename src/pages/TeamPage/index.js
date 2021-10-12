@@ -11,10 +11,7 @@ const TeamPage = () => {
     return (
         <div id="canvas">
             <div id="box_wrapper">
-                <div className="header_absolute s-parallax ds bs s-overlay">
-                    <Navbar />
-                    <Navi page='Team' />
-                </div>
+                <Navbar page='Team' />
                 <MyTeam />
                 <Footer />
                 <Rights />

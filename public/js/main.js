@@ -806,6 +806,7 @@ function documentReadyInit() {
 
 }
 
+
 //function that initiating template plugins on window.load event
 function windowLoadInit() {
     //////////////
@@ -1437,6 +1438,7 @@ $(document).ready(function() {
     documentReadyInit();
     initGoogleMap();
 });
+
 
 $window.on('load', function(){
     windowLoadInit();

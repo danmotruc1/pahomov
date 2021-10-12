@@ -10,10 +10,7 @@ const ContactPage = () => {
     return (
         <div id="canvas">
             <div id="box_wrapper">
-                <div className="header_absolute s-parallax ds bs s-overlay">
-                    <Navbar />
-                    <Navi page='Contact' />
-                </div>
+                <Navbar page="Contact" />
                 <ContactForm />
                 <Footer />
                 <Rights />

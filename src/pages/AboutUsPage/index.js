@@ -14,10 +14,7 @@ const AboutUsPage = () => {
     return (
         <div id="canvas">
             <div id="box_wrapper">
-                <div className="header_absolute s-parallax ds bs s-overlay">
-                    <Navbar />
-                    <Navi page='About Us' />
-                </div>
+                <Navbar page="About us" />
                 <Boss />
                 <PricesContainer />
                 <WorkMeth />

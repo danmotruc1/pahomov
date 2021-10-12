@@ -20,9 +20,7 @@ const Homepage = () => {
         <div id="canvas">
             <div id="box_wrapper">
 
-                <div className="header_absolute slide_absolute ds bs s-overlay">
-                    <Navbar />
-                </div>
+                <Navbar />
                 <PageSlider />
                 <PricesContainer />
                 <WorkMeth />

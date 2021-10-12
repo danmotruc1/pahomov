@@ -9,10 +9,7 @@ const ServicesPage = () => {
     return (
         <div id="canvas">
             <div id="box_wrapper">
-                <div className="header_absolute s-parallax ds bs s-overlay">
-                    <Navbar />
-                    <Navi page='Services' />
-                </div>
+                <Navbar page="Services" />
                 <ServicesSection />
                 <ServicesSection />
                 <ServicesSection />

@@ -10,10 +10,7 @@ const FaqPage = () => {
     return (
         <div id="canvas">
             <div id="box_wrapper">
-                <div className="header_absolute s-parallax ds bs s-overlay">
-                    <Navbar />
-                    <Navi page='Frequently Asked Questions' />
-                </div>
+                <Navbar page="FAQ" />
                 <FaqComp />
                 <Footer />
                 <Rights />
