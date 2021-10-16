@@ -14,7 +14,7 @@ const TeamSection = () => {
     };
 
     useEffect(() => {
-        const url = 'http://localhost:8000/api/members';
+        const url = 'http://admin.testmoc.com/api/members';
 
         fetch(url, requestOptions)
             .then(response => response.json())

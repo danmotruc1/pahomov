@@ -20,7 +20,7 @@ const ContactForm = () => {
     };
 
     useEffect(() => {
-        const url = 'http://localhost:8000/api/contact-info';
+        const url = 'http://admin.testmoc.com/api/contact-info';
 
         fetch(url, requestOptions)
             .then(response => response.json())
@@ -34,7 +34,7 @@ const ContactForm = () => {
     // </div>
 
     const submit = e => {
-        fetch('http://localhost:8000/api/send-message', requestOptions)
+        fetch('http://admin.testmoc.com/api/send-message', requestOptions)
             .then(response => response.json())
             .then(result => {
                 

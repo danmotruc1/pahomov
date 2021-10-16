@@ -15,7 +15,7 @@ const GalleryHome = () => {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
         };
-        const url = 'http://localhost:8000/api/photos';
+        const url = 'http://admin.testmoc.com/api/photos';
 
         fetch(url, requestOptions)
             .then((response) => response.json())

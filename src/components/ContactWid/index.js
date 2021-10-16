@@ -6,7 +6,7 @@ const ContactWid = () => {
     const [contact, setContact] = useState([]);
 
     useEffect(() => {
-        const url = 'http://localhost:8000/api/contact-info';
+        const url = 'http://admin.testmoc.com/api/contact-info';
 
         fetch(url)
             .then(response => response.json())
